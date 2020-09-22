@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Millionaire Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <h1 class="app__title">Millionaire Game</h1>
+    <main class="app">
+        <div class="game__container">
+            <div class="game__init-container show">
+                <header>
+                    <h2>
+                        Could you win Who Wants To Be A Millionaire's one million top prize?
+                    </h2>
+                    <p class="game__init-info"></p>
+                </header>
+                <button class="btn btn-start">Start Game</button>
+            </div>
+            <div class="game__play-container">
+                <div class="game__play-question">
+                    
+                </div>
+                <div class="game__play-timer">
+                    <span></span>
+                </div>
+                <ul class="game__play-question-menu">
+                    <li>
+                        <button class="btn btn-answer"></button>
+                    </li>
+                    <li>
+                        <button class="btn btn-answer"></button>
+                    </li>
+                    <li>
+                        <button class="btn btn-answer"></button>
+                    </li>
+                    <li>
+                        <button class="btn btn-answer"></button>
+                    </li>
+                </ul>
+            </div>
+            <div class="game__lost-container">
+                <header>
+                    <h2>
+                        You lost the game!
+                    </h2>
+                    <p class="game__lost-info"></p>
+                </header>
+                <button class="btn btn-start">Start New Game</button>
+            </div>
+            <div class="game__win-container">
+                <header>
+                    <h2>
+                        Congratz!!!
+                    </h2>
+                    <p class="game__win-info">
+                        You won one million dollares!
+                    </p>
+                </header>
+                <button class="btn btn-start">Start New Game</button>
+            </div>
+        </div>
+        <div class="game__level-container">
+            <span class="game__level-bg"></span>
+        </div>
+    </main>
+
+    <script type="module" src="./main.js"></script>
+
+</body>
+
+</html>
